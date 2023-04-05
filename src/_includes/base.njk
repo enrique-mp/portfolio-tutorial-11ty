@@ -1,0 +1,9 @@
+<body>
+  <div class="content">
+    {% include "header.njk" %}
+    <main class="main container">
+      {{ content | safe }}
+    </main>
+  </div>
+  {% include "footer.njk" %}
+</body>

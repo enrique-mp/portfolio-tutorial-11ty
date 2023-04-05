@@ -1,0 +1,24 @@
+---
+title: "Apps de Enrique MP"
+layout: "base.njk"
+---
+
+<h2 class="heading__main text-center">¿Quieres contactar?</h2>
+<p class="contact__sub-heading text-center">Siempre abierto a nuevas oportunidades y proyectos</p>
+
+<form name="contact" action="/success" class="form" method="post" data-netlify="true">
+  <div class="form__section">
+    <label for="yourName" class="form__label">Nombre</label>
+    <input type="text" name="name" id="yourName" class="form__input" required="true">
+  </div>
+  <div class="form__section">
+    <label for="yourEmail" class="form__label">Email</label>
+    <input type="email" name="email" id="yourEmail" class="form__input" required="true">
+  </div>
+  <div class="form__section">
+    <label for="message" class="form__label">Mensaje</label>
+    <textarea name="message" id="message" class="form__input" rows="4" required="true"></textarea>
+  </div>
+    <button class="form__button" type="submit">¡Hablemos!</button>
+</form>
+
